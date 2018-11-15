@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/loading"
+        android:orderInCategory="100"
+        android:title="Loading"/>
+
+    <item
+        android:id="@+id/empty"
+        android:orderInCategory="200"
+        android:title="Empty"/>
+
+    <item
+        android:id="@+id/error"
+        android:orderInCategory="200"
+        android:title="Error"/>
+
+    <item
+        android:id="@+id/data"
+        android:orderInCategory="200"
+        android:title="Loading &amp; Data"/>
+
+    <item
+        android:id="@+id/dismiss"
+        android:orderInCategory="200"
+        android:title="Dismiss"/>
+
+    <item
+        android:id="@+id/again"
+        android:orderInCategory="200"
+        android:title="Again"/>
+</menu>

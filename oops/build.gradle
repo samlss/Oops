@@ -1,0 +1,28 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        minSdkVersion 12
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0.0-beta"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+}
+
+publish {
+    userOrg = 'samlss'
+    groupId = 'me.samlss'
+    artifactId = 'oops'
+    publishVersion = '1.0.0-beta'
+    desc = 'A library for android that help to show the layout of loading, error, empty etc...'
+    website = 'https://github.com/samlss/Oops'
+}
