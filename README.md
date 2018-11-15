@@ -16,8 +16,6 @@
 ![Oops](https://github.com/samlss/Oops/blob/master/screenshots/screenshot1.gif)
 
 
-
-------
 ### Dependency
 
 #### Gradle
